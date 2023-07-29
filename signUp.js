@@ -41,7 +41,7 @@ submit.addEventListener('click', (e) => {
         alert('Sign up Success...')
 
 // redirecting on successful sign up
-        window.open('/home.html', '_self')
+        window.open('home.html', '_self')
 
 
     }
