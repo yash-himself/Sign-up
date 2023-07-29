@@ -42,7 +42,7 @@ logOut.addEventListener('click', (e) => {
     // clearing storage
     localStorage.clear()
     // redirecting to sign up page
-    window.open('/Sign-up', '_self')
+    window.open('/', '_self')
 })
 
 
