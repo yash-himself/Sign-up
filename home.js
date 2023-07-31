@@ -9,7 +9,7 @@ if (logged == null && file[file.length - 1] == 'home.html') {
 // taking user information from local Storage
 let user = JSON.parse(localStorage.getItem('user'))
 let token = Math.round(user.token)
-
+token.toString(16);
 
 
 // rendering profile
